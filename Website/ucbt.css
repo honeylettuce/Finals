@@ -15,12 +15,16 @@ body{
 }
 
 #container{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     height: 60px;
     width: 100%;
     background-color: rgb(53, 53, 53);
     padding: 15px;
     border-color: transparent;
     display: flex;
+    z-index: 1;
 } 
 
 .home{
@@ -112,18 +116,69 @@ img{
     background-color: whitesmoke;
 }
 
-.first{
-    margin: 0%;
-    width: 20%;
-    height: 50%;
-    background-color: aquamarine;
-}
-.img1{
-    padding: 10px;
-    width: 95%;
-    height: 95%;
+.intrams{
     position: absolute;
+    left: 100px;
+    top: 710px;
 }
-.meg{
-    color: black;
+
+.polaroid img {
+    width: 300px;
+    height: 250px;
+    border-radius: 25px 25px 0 0;
+    left: 0px;
+}
+.polaroid {
+    position: absolute;
+    top: 780px;
+    left: 60px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color:blueviolet;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px 3px black;
+}
+.caption {
+    padding: 0 20px 20px 20px;
+}
+.polaroid2 img {
+    width: 300px;
+    height: 250px;
+    border-radius: 25px 25px 0 0;
+    left: 0px;
+}
+.polaroid2 {
+    position: absolute;
+    top: 780px;
+    left: 535px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color:blueviolet;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px 3px black;
+}
+.caption {
+    padding: 0 20px 20px 20px;
+}
+.polaroid3 img {
+    width: 300px;
+    height: 250px;
+    border-radius: 25px 25px 0 0;
+    left: 0px;
+}
+.polaroid3 {
+    position: absolute;
+    top: 780px;
+    left: 1000px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color:blueviolet;
+    border-radius: 25px;
+    box-shadow: 2px 4px 8px 3px black;
+}
+.caption {
+    padding: 0 20px 20px 20px;
 }
