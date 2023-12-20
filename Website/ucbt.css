@@ -91,7 +91,7 @@ img{
     color: wheat;
     background-color: rgb(53, 53, 53);
     width: auto;
-    height: 300px;
+    height: 220px;
 }
 
 .update{
@@ -104,7 +104,7 @@ img{
     text-decoration: none;
    
 }
-span{
+.lass{
     text-align: center;
     opacity: 50%;
     position: flex;
@@ -129,21 +129,12 @@ a{
     width: auto;
     background-color: whitesmoke;
 }
-
-#edu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-    width: auto;
-    background-color: whitesmoke;
-}
-
-
+/*HOME*/
 .polaroid img {
     width: 300px;
     height: 250px;
     border-radius: 25px 25px 0 0;
+    object-fit: cover;
     left: 0px;
 }
 
@@ -151,23 +142,119 @@ a{
     height: 300px;
     width: 300px;
     margin: auto;
-    background-color:blueviolet;
+    background-color: white;
     border-radius: 25px;
     box-shadow: 2px 4px 8px 3px black;
-    overflow: hidden; 
+    overflow: hidden;
+    
 }
 
-.polaroid:hover{
+.polaroid:hover .caption{
     cursor: pointer;
+    top: 124%;
 }
 
 
 .caption {
-    background-color: transparent;
-    height: 100px;
-    box-sizing: border-box;
-    position: flex;
-    top: 990px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 315px;
+    width: 300px;
+    position: absolute;
+    top: 175%;
+    left: 75px;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s;
     
-    padding: 0 20px 20px 20px;
+}
+
+.tite{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.tite2{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+/*HOME*/
+
+/*EDUC*/
+#edu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+    background-color: whitesmoke;
+}
+
+.eduall{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-size: 30px;
+}
+/*EDUC*/
+
+/*STORY*/
+#sto{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+    background-color: whitesmoke;
+}
+
+.stoall{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-size: 30px;
+}
+/*STORY*/
+
+/*ABOUT US*/
+#au{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+    background-color: whitesmoke;
+}
+.aboutuc{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+
+.yes{
+    position: absolute;
+    left: 10%;
+    width: 50%;
+    position: absolute;
+    text-align: justify;
+    word-spacing: 10px;
+}
+.ab{
+    font-size: 100%;
+    position: absolute;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.acc{
+    display: flex;
+    position: absolute;
+    left: 400px;
 }
