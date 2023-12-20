@@ -42,13 +42,6 @@ body{
     padding-right: 16px;
 }
 
-.search{
-    background-color: rgb(245, 245, 245, 0.50);
-    border-radius: 25px;
-    position: relative;
-    left: 470px;
-}
-
 img{
     position: relative;
     width: 50px;
@@ -189,43 +182,8 @@ a{
     font-weight: 400;
 }
 
-.polaroid:hover .educap{
-    top: 0;
-    opacity: 1;
-}
 
-.educap {
-    position: fixed;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.466);
-    height: 315px;
-    width: 300px;
-    position: absolute;
-    bottom: 100%;
-    opacity: 1;
-    transition: top 0.5s, opacity 0.5s; 
-    left: 0px;
-    border-radius: 25px;
-    backdrop-filter: blur(2px);
-    color: white;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    transition: all 0.5s ;
-}
 
-.educcap{
-    text-transform: uppercase;
-    font-size: 30px;
-}
-
-.edducaps{
-    font-size: 15px;
-    line-height: 25px;
-    word-spacing: 10px;
-    margin: 10px 0;
-    font-weight: 400;
-}
 /*
 .polaroid:hover .caption3{
     cursor: pointer;
@@ -268,7 +226,7 @@ a{
     display: none;
     align-items: center;
     justify-content: center;
-    height: 900px;
+    height: 500px;
     width: auto;
     background-color: whitesmoke;
 }
@@ -278,6 +236,44 @@ a{
     left: 100px;
     top: 100px;
     font-size: 30px;
+}
+
+.polaroid:hover .educap{
+    top: 0;
+    opacity: 1;
+}
+
+.educap {
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 315px;
+    width: 300px;
+    position: absolute;
+    bottom: 100%;
+    opacity: 1;
+    transition: top 0.5s, opacity 0.5s; 
+    left: 0px;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ;
+}
+
+.educcap{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.edducaps{
+    font-size: 15px;
+    line-height: 25px;
+    word-spacing: 10px;
+    margin: 10px 0;
+    font-weight: 400;
 }
 /*EDUC*/
 
@@ -292,12 +288,108 @@ a{
 }
 
 .stoall{
+    
     position: absolute;
     left: 100px;
     top: 100px;
     font-size: 30px;
 }
+
+.polaroid:hover .stocap{
+    top: 0;
+    opacity: 1;
+}
+
+.stocap {
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 315px;
+    width: 300px;
+    position: absolute;
+    bottom: 100%;
+    opacity: 1;
+    transition: top 0.5s, opacity 0.5s; 
+    left: 0px;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ;
+}
+
+.cap{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.scap{
+    font-size: 12px;
+    line-height: px;
+    word-spacing: 10px;
+    margin: 10px 0;
+    font-weight: 400;
+}
 /*STORY*/
+
+/*EVENT*/
+#eve{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+    background-color: whitesmoke;
+}
+
+.eveall{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-size: 30px;
+}
+
+.polaroid:hover .evencap{
+    top: 0;
+    opacity: 1;
+}
+
+.evencap {
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 315px;
+    width: 300px;
+    position: absolute;
+    bottom: 100%;
+    opacity: 1;
+    transition: top 0.5s, opacity 0.5s; 
+    left: 0px;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ;
+}
+
+.evecapp{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.sevencap{
+    font-size: 15px;
+    line-height: 15px;
+    word-spacing: 10px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+/*event*/
 
 /*ABOUT US*/
 #au{
