@@ -42,27 +42,19 @@ body{
     padding-right: 16px;
 }
 
-.search {
+.search{
     background-color: rgb(245, 245, 245, 0.50);
     border-radius: 25px;
-    position: absolute;
-    top: 10px;
-    right: 80px;
-    height: 40px;
-    padding-top: 5px;
+    position: relative;
+    left: 470px;
 }
 
-.search::placeholder {
-    font-size: 20px;
-    color: #717171;
-}
-
-img {
-    position: absolute;
+img{
+    position: relative;
     width: 50px;
     height: 50px;
     bottom: 10px;
-    right: 20px;
+    left: 482px;
 }
 
 .home:hover{
@@ -140,7 +132,7 @@ a{
 /*HOME*/
 .polaroid img {
     width: 300px;
-    height: 250px;
+    height: 310px;
     border-radius: 25px 25px 0 0;
     object-fit: cover;
     left: 0px;
@@ -154,45 +146,121 @@ a{
     border-radius: 25px;
     box-shadow: 2px 4px 8px 3px black;
     overflow: hidden;
+    position: relative;
     
 }
 
 .polaroid:hover .caption{
-    cursor: pointer;
-    top: 124%;
+    top: 0; 
+    opacity: 1;
 }
 
 
 .caption {
+    position: fixed;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.466);
     height: 315px;
     width: 300px;
     position: absolute;
-    top: 175%;
-    left: 75px;
+    top: calc(100% - 35px);
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s; 
+    left: 0px;
     border-radius: 25px;
     backdrop-filter: blur(2px);
     color: white;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    transition: all 1s;
+    transition: all 0.5s;
     
 }
 
-.tite{
+.cap{
     text-transform: uppercase;
     font-size: 30px;
 }
 
-.tite2{
-    font-size: 16px;
+.scap{
+    font-size: 14px;
     line-height: 25px;
     margin: 20px 0;
     font-weight: 400;
 }
 
+.polaroid:hover .educap{
+    top: 0;
+    opacity: 1;
+}
+
+.educap {
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 315px;
+    width: 300px;
+    position: absolute;
+    bottom: 100%;
+    opacity: 1;
+    transition: top 0.5s, opacity 0.5s; 
+    left: 0px;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ;
+}
+
+.educcap{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.edducaps{
+    font-size: 15px;
+    line-height: 25px;
+    word-spacing: 10px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+/*
+.polaroid:hover .caption3{
+    cursor: pointer;
+    top: 124%;
+    opacity: 1;
+}
+.caption3 {
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 315px;
+    width: 300px;
+    position: absolute;
+    top: 155%;
+    left: 700;
+    opacity: 0;
+    border-radius: 25px;
+    backdrop-filter: blur(2px);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: top 0.5s , opacity 0.5s;
+    
+}
+
+.sotrycap{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.storycaps{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px 0;
+    font-weight: 400;
+}
 /*HOME*/
 
 /*EDUC*/
@@ -200,7 +268,7 @@ a{
     display: none;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 900px;
     width: auto;
     background-color: whitesmoke;
 }
