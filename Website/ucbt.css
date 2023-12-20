@@ -153,7 +153,7 @@ a{
 
 
 .caption {
-    background-color: rgba(250, 235, 215, 0.692);
+    background-color: transparent;
     height: 100px;
     box-sizing: border-box;
     position: flex;
