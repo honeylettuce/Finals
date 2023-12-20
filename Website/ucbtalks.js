@@ -5,7 +5,8 @@ function homed() {
     document.getElementById('posts').style.display = 'flex';
     document.getElementById('edu').style.display = 'none';
     document.getElementById('sto').style.display = 'none';
-    document.getElementById('au').style.display = 'none'; 
+    document.getElementById('eve').style.display = 'none';
+    document.getElementById('au').style.display = 'none';
     }
 
 function education() {
@@ -16,6 +17,8 @@ function education() {
     document.getElementById('posts').style.display= 'none';
     document.getElementById('sto').style.display = 'none';
     document.getElementById('au').style.display = 'none';
+    document.getElementById('eve').style.display = 'none';
+     
     }
     
 function story() {
@@ -26,7 +29,19 @@ function story() {
     document.getElementById('posts').style.display= 'none';
     document.getElementById('edu').style.display = 'none';
     document.getElementById('au').style.display = 'none';
+    document.getElementById('eve').style.display = 'none';
     }
+
+function vents() {
+    document.body.classList.toggle("even");
+    document.getElementById('eve').style.display = 'flex';
+    document.getElementById('bgimg').style.display = 'none';
+    document.getElementById('bigass').style.display = 'none';
+    document.getElementById('posts').style.display = 'none';
+    document.getElementById('edu').style.display = 'none';
+    document.getElementById('sto').style.display = 'none';
+    document.getElementById('au').style.display = 'none';
+}
     
 function about() {
     document.body.classList.toggle("abou");
@@ -36,4 +51,6 @@ function about() {
     document.getElementById('posts').style.display= 'none';
     document.getElementById('edu').style.display = 'none';
     document.getElementById('sto').style.display = 'none';
+    document.getElementById('eve').style.display = 'none';
     }
+
